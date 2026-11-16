@@ -1,28 +1,40 @@
-# codex/ — Codex 智能伙伴（Pet）
+# codex/ — Codex Pet
 
-**中文 | [English](README.en.md)**
+**English | [中文](README.zh-CN.md)**
 
-Codex Pet v2 导入包，角色与仓库中的头像是同一个形象，全部帧为逐帧重绘。
+Codex Pet v2 import package. The character is the same one as the avatar in
+this repository, wearing the Monday outfit, and every frame was redrawn
+individually.
 
-## 安装
+## Install
 
-把 `pink-hanfu/` 整个文件夹复制到：
+Copy the whole `pink-hanfu/` folder to:
 
-- macOS / Linux：`~/.codex/pets/pink-hanfu/`
-- Windows：`%USERPROFILE%\.codex\pets\pink-hanfu\`
-- 设置了 `CODEX_HOME` 时：`$CODEX_HOME/pets/pink-hanfu/`
+- macOS / Linux: `~/.codex/pets/pink-hanfu/`
+- Windows: `%USERPROFILE%\.codex\pets\pink-hanfu\`
+- With `CODEX_HOME` set: `$CODEX_HOME/pets/pink-hanfu/`
 
-文件夹内必须直接包含 `pet.json` 和 `spritesheet.webp` 两个文件
-（不要多套一层文件夹）。然后打开 ChatGPT / Codex 桌面版 →
-Settings → Pets → Refresh，选择「粉白古装 · Pink Hanfu」。
+The folder must directly contain `pet.json` and `spritesheet.webp`
+(no extra nesting). Then open the ChatGPT / Codex desktop app →
+Settings → Pets → Refresh, and select "粉白古装 · Pink Hanfu".
 
-## 文件
+## Files
 
-| 路径 | 说明 |
+| Path | Description |
 |---|---|
-| `pink-hanfu/pet.json` | 清单：id / displayName / description / spriteVersionNumber 2 / spritesheetPath |
-| `pink-hanfu/spritesheet.webp` | 图集：1536×2288，8×11，每格 192×208，透明底，约 1.7 MB |
-| `preview/contact-sheet.png` | 全图集预览 |
-| `preview/*.gif` | idle / waving / working / jumping 动图预览 |
+| `pink-hanfu/pet.json` | Manifest: id / displayName / description / spriteVersionNumber 2 / spritesheetPath |
+| `pink-hanfu/spritesheet.webp` | Sprite sheet: 1536×2288, 8×11, 192×208 per cell, transparent, ~1.7 MB |
+| `preview/contact-sheet.png` | Full sheet preview |
+| `preview/*.gif` | Animated previews: idle / waving / working / jumping |
+| `TUTORIAL.md` | How to make a pet for any other outfit |
 
-规格与逐行说明见仓库根目录的 [README](../README.md)。
+See the repository root [README](../README.md) for the full spec and row-by-row breakdown.
+
+## Make a pet for another outfit
+
+Only the Monday outfit has a ready-made pet in this repo. For the other seven
+outfits in [`../muse/outfits/`](../muse/), follow
+[**TUTORIAL.md**](TUTORIAL.md): it documents the whole pipeline used for this
+pet — drawing the 11 action strips frame by frame, slicing and cleaning,
+assembling the 1536×2288 sheet, writing `pet.json`, validating, and installing —
+including a suggested pet id per outfit.

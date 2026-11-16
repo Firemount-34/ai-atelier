@@ -1,88 +1,94 @@
-# Muse · 粉白古装 — 虚拟形象 & Codex 智能伙伴
+# Pink Hanfu — Virtual Avatar & Codex Pet
 
-**中文 | [English](README.en.md)**
+**English | [中文](README.zh-CN.md)**
 
-> 一个大头卡通虚拟形象的双平台素材仓库：`muse/` 是她在 Muse 里的头像形象，
-> `codex/` 是把同一形象逐帧重绘后做成的 Codex 桌面智能伙伴（Pet）导入包。
+> A two-platform asset repo for one big-head chibi character: `muse/` holds her
+> avatar assets for Muse — all eight outfits of her wardrobe — and `codex/` holds
+> a Codex desktop pet import package redrawn frame by frame from the Monday
+> outfit, plus a tutorial for making pets of the other outfits.
 
-![Muse 头像](muse/avatar.webp)
+![Avatar](muse/avatar.webp)
 
-## 角色介绍
+## The character
 
-- **形象**：大头可爱卡通女孩，长黑直发中分，珍珠耳坠
-- **服装**：粉白金纹刺绣古装（白色上衣配金线刺绣、粉色广袖）
-- **标志动作**：坐在小笔记本电脑前敲键盘
-- **由来**：最初是 Muse 个人助手的自定义头像（周一造型，一周七套轮换之一），
-  之后应需求把这个形象完整重绘成 Codex 可导入的动画伙伴
+- **Look**: big-head chibi cartoon girl, long straight black hair with a center part, pearl earrings
+- **Signature pose**: typing on a small laptop
+- **Wardrobe**: eight outfits — a seven-outfit weekly rotation (Mon–Sun) plus one spare. The pet in this repo wears the Monday outfit: a pink-and-white hanfu with gold-thread embroidery
+- **Origin**: originally a custom avatar for the Muse personal assistant, later fully redrawn as an importable animated Codex pet
 
-## 预览
+All outfits are in [`muse/outfits/`](muse/) — see the gallery there.
 
-Codex 版整张动画图集（8 列 × 11 行）：
+## Preview
 
-![Codex 图集预览](codex/preview/contact-sheet.png)
+The full Codex sprite sheet (8 columns × 11 rows):
 
-| 待机 idle | 挥手 waving | 工作 working | 跳跃 jumping |
+![Codex sprite sheet](codex/preview/contact-sheet.png)
+
+| idle | waving | working | jumping |
 |---|---|---|---|
 | ![idle](codex/preview/idle.gif) | ![waving](codex/preview/waving.gif) | ![working](codex/preview/working.gif) | ![jumping](codex/preview/jumping.gif) |
 
-## 仓库结构
+## Repository layout
 
 ```
 .
-├── README.md                  # 本页（中文）
-├── README.en.md               # English readme
-├── muse/                      # Muse 平台形象
-│   ├── avatar.webp            # 主头像（1600×1600）
-│   ├── states/                # 深色模式状态图：idle / working /
-│   │                          #   making_something / milestone_level_up / waking
+├── README.md                  # this page (English)
+├── README.zh-CN.md            # 中文说明
+├── muse/                      # Muse platform assets
+│   ├── avatar.webp            # main avatar — Monday outfit (1600×1600)
+│   ├── outfits/               # the other 7 outfits (Tue–Sun + spare)
+│   ├── states/                # dark-mode state images (Monday outfit)
 │   └── README.md
-└── codex/                     # Codex 平台智能伙伴
+└── codex/                     # Codex platform pet
     ├── pink-hanfu/
-    │   ├── pet.json           # 伙伴清单（spriteVersionNumber: 2）
-    │   └── spritesheet.webp   # 动画图集（1536×2288，透明底）
-    ├── preview/               # 图集预览图与动图
-    └── README.md / README.en.md   # 安装说明（中 / 英）
+    │   ├── pet.json           # pet manifest (spriteVersionNumber: 2)
+    │   └── spritesheet.webp   # sprite sheet (1536×2288, transparent)
+    ├── preview/               # contact sheet and animated previews
+    ├── TUTORIAL.md            # make a pet for any other outfit
+    └── README.md              # install guide
 ```
 
-## Codex 版安装（本地导入）
+## Installing the Codex pet (local import)
 
-1. 把 `codex/pink-hanfu/` 整个文件夹复制到 Codex 的 pets 目录：
-   - macOS / Linux：`~/.codex/pets/`
-   - Windows：`%USERPROFILE%\.codex\pets\`
-   - 如果设置了 `CODEX_HOME`，则放到 `$CODEX_HOME/pets/` 下
-2. 打开 ChatGPT / Codex 桌面版 → **Settings → Pets → Refresh**
-3. 选择 **「粉白古装 · Pink Hanfu」**，用 `/pet` 唤醒或收起
+1. Copy the whole `codex/pink-hanfu/` folder into Codex's pets directory:
+   - macOS / Linux: `~/.codex/pets/`
+   - Windows: `%USERPROFILE%\.codex\pets\`
+   - If `CODEX_HOME` is set: `$CODEX_HOME/pets/`
+2. Open the ChatGPT / Codex desktop app → **Settings → Pets → Refresh**
+3. Select **"粉白古装 · Pink Hanfu"**, and toggle it any time with `/pet`
 
-## Codex 图集规格
+Want a pet wearing a different outfit? Follow
+[**codex/TUTORIAL.md**](codex/TUTORIAL.md) — it walks through the whole process,
+from one outfit image in `muse/outfits/` to an installable pet package.
 
-| 项目 | 值 |
+## Sprite sheet spec
+
+| Item | Value |
 |---|---|
-| 格式 | Codex Pet v2 |
-| 图集尺寸 | 1536 × 2288 px（8 列 × 11 行） |
-| 单格 | 192 × 208 px，透明背景 WebP |
-| 帧数 | 74 格（另含中立正视格） |
+| Format | Codex Pet v2 |
+| Sheet size | 1536 × 2288 px (8 columns × 11 rows) |
+| Cell | 192 × 208 px, transparent WebP |
+| Frames | 74 used cells (plus a neutral front-facing cell) |
 
-| 行 | 状态 | 帧数 | 内容 |
+| Row | State | Frames | Content |
 |---|---|---|---|
-| 0 | idle | 6（+中立格） | 呼吸起伏、眨眼 |
-| 1 | running-right | 8 | 向右奔跑，头发后飘 |
-| 2 | running-left | 8 | 向左奔跑（由右行帧镜像派生，契约允许） |
-| 3 | waving | 4 | 举手挥手打招呼 |
-| 4 | jumping | 5 | 下蹲、起跳、腾空、下落、落地 |
-| 5 | failed | 8 | 从愣住、垂头到趴在键盘上 |
-| 6 | waiting | 6 | 东张西望、托腮、招手催促 |
-| 7 | running（工作） | 6 | 专注敲键盘 |
-| 8 | review | 6 | 凑近检查、点头、竖大拇指 |
-| 9–10 | look directions | 16 | 从正上开始顺时针每 22.5° 一个看向 |
+| 0 | idle | 6 (+ neutral) | breathing, blinking |
+| 1 | running-right | 8 | running right, hair flowing back |
+| 2 | running-left | 8 | running left (mirror-derived from the right run, allowed by the spec) |
+| 3 | waving | 4 | raising a hand to say hello |
+| 4 | jumping | 5 | crouch, leap, airborne, fall, landing |
+| 5 | failed | 8 | from stunned and drooping to face-down on the keyboard |
+| 6 | waiting | 6 | looking around, chin in hand, beckoning |
+| 7 | running (working) | 6 | focused typing |
+| 8 | review | 6 | leaning in to inspect, nodding, thumbs up |
+| 9–10 | look directions | 16 | clockwise from straight up, one gaze every 22.5° |
 
-## 制作说明
+## Production notes
 
-- 每一帧均为**单独重绘**，不是单张图的位移/缩放变换：表情、姿势、头发飘动逐帧不同
-- 看向方向原组只画出 7 帧，缺失的 337.5° 一帧为单独补绘
-- 拼装时只做抠透明底、切帧与尺寸归一化；个别帧边缘可能残留极细的邻帧发丝，
-  在宠物实际显示尺寸下基本不可见
+- Every frame was **individually redrawn** — no displacement/scale transforms of a single image: expressions, poses and hair movement differ frame by frame
+- The look-direction set originally had only 7 of 8 frames drawn; the missing 337.5° frame was drawn separately to complete it
+- Assembly only did background removal, frame slicing and size normalization; a few frames may keep a hair-thin strand from a neighbouring frame at the edge, essentially invisible at actual pet display size
 
-## 免责声明
+## Disclaimer
 
-本仓库为个人非商业粉丝创作，角色为卡通风格化形象，与艺人本人及
-OpenAI、Meta 等公司无关，请勿用于商业用途。
+A personal, non-commercial fan work. The character is a stylized cartoon depiction, unrelated to any real person or to OpenAI, Meta, or any other company. Please do not use commercially.
