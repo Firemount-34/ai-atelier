@@ -1,5 +1,7 @@
 # Muse · 粉白古装 — 虚拟形象 & Codex 智能伙伴
 
+**中文 | [English](README.en.md)**
+
 > 一个大头卡通虚拟形象的双平台素材仓库：`muse/` 是她在 Muse 里的头像形象，
 > `codex/` 是把同一形象逐帧重绘后做成的 Codex 桌面智能伙伴（Pet）导入包。
 
@@ -27,28 +29,29 @@ Codex 版整张动画图集（8 列 × 11 行）：
 
 ```
 .
-├── README.md                  # 本页
+├── README.md                  # 本页（中文）
+├── README.en.md               # English readme
 ├── muse/                      # Muse 平台形象
 │   ├── avatar.webp            # 主头像（1600×1600）
 │   ├── states/                # 深色模式状态图：idle / working /
 │   │                          #   making_something / milestone_level_up / waking
 │   └── README.md
 └── codex/                     # Codex 平台智能伙伴
-    ├── muse-pink-hanfu/
+    ├── pink-hanfu/
     │   ├── pet.json           # 伙伴清单（spriteVersionNumber: 2）
     │   └── spritesheet.webp   # 动画图集（1536×2288，透明底）
     ├── preview/               # 图集预览图与动图
-    └── README.md              # 安装说明
+    └── README.md / README.en.md   # 安装说明（中 / 英）
 ```
 
 ## Codex 版安装（本地导入）
 
-1. 把 `codex/muse-pink-hanfu/` 整个文件夹复制到 Codex 的 pets 目录：
+1. 把 `codex/pink-hanfu/` 整个文件夹复制到 Codex 的 pets 目录：
    - macOS / Linux：`~/.codex/pets/`
    - Windows：`%USERPROFILE%\.codex\pets\`
    - 如果设置了 `CODEX_HOME`，则放到 `$CODEX_HOME/pets/` 下
 2. 打开 ChatGPT / Codex 桌面版 → **Settings → Pets → Refresh**
-3. 选择 **「Muse · 粉白古装」**，用 `/pet` 唤醒或收起
+3. 选择 **「粉白古装 · Pink Hanfu」**，用 `/pet` 唤醒或收起
 
 ## Codex 图集规格
 
