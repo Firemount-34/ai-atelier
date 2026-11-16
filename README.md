@@ -16,7 +16,18 @@
 - **Wardrobe**: eight outfits — a seven-outfit weekly rotation (Mon–Sun) plus one spare. The pet in this repo wears the Monday outfit: a pink-and-white hanfu with gold-thread embroidery
 - **Origin**: originally a custom avatar for the Muse personal assistant, later fully redrawn as an importable animated Codex pet
 
-All outfits are in [`muse/outfits/`](muse/) — see the gallery there.
+## The wardrobe
+
+| Mon · Pink hanfu | Tue · Teal hanfu | Wed · Purple pearl dress | Thu · Red hanfu |
+|---|---|---|---|
+| ![Mon](muse/avatar.webp) | ![Tue](muse/outfits/teal-hanfu.webp) | ![Wed](muse/outfits/purple-pearl-dress.webp) | ![Thu](muse/outfits/red-hanfu.webp) |
+
+| Fri · Light blue suit | Sat · White hanfu | Sun · Pink sweater | Spare · Mint qipao |
+|---|---|---|---|
+| ![Fri](muse/outfits/light-blue-suit.webp) | ![Sat](muse/outfits/white-hanfu.webp) | ![Sun](muse/outfits/pink-sweater.webp) | ![Spare](muse/outfits/mint-qipao.webp) |
+
+Files: Monday is [`muse/avatar.webp`](muse/avatar.webp); the rest live in
+[`muse/outfits/`](muse/outfits/).
 
 ## Preview
 

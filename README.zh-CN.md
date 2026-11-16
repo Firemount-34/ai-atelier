@@ -17,7 +17,18 @@
 - **由来**：最初是 Muse 个人助手的自定义头像，之后应需求把这个形象完整
   重绘成 Codex 可导入的动画伙伴
 
-全部服装在 [`muse/outfits/`](muse/)，图集见那边的说明页。
+## 全部服装
+
+| 周一 · 粉白古装 | 周二 · 青绿古装 | 周三 · 紫色珍珠礼服 | 周四 · 红色金纹古装 |
+|---|---|---|---|
+| ![周一](muse/avatar.webp) | ![周二](muse/outfits/teal-hanfu.webp) | ![周三](muse/outfits/purple-pearl-dress.webp) | ![周四](muse/outfits/red-hanfu.webp) |
+
+| 周五 · 浅蓝西装 | 周六 · 白衣仙气古装 | 周日 · 粉色毛衣 | 备用 · 薄荷绿旗袍 |
+|---|---|---|---|
+| ![周五](muse/outfits/light-blue-suit.webp) | ![周六](muse/outfits/white-hanfu.webp) | ![周日](muse/outfits/pink-sweater.webp) | ![备用](muse/outfits/mint-qipao.webp) |
+
+文件：周一是 [`muse/avatar.webp`](muse/avatar.webp)，其余在
+[`muse/outfits/`](muse/outfits/)。
 
 ## 预览
 
