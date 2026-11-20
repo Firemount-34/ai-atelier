@@ -30,6 +30,14 @@
 文件：周一是 [`muse/avatar.webp`](muse/avatar.webp)，其余在
 [`muse/outfits/`](muse/outfits/)。
 
+## 另一个头像 — 林一一
+
+[`muse/lin-yiyi/`](muse/lin-yiyi/) 是抖音短剧《我的妹妹不可爱》里林一一的
+Q 版头像，2026-11-20 起成为 Muse 助手的新头像，是上面粉白古装角色之外
+的另一个独立造型。
+
+![林一一](muse/lin-yiyi/avatar.webp)
+
 ## 预览
 
 Codex 版整张动画图集（8 列 × 11 行）：
@@ -50,6 +58,7 @@ Codex 版整张动画图集（8 列 × 11 行）：
 │   ├── avatar.webp            # 主头像——周一服装（1600×1600）
 │   ├── outfits/               # 其余 7 套服装（周二至周日 + 备用）
 │   ├── states/                # 深色模式状态图（周一服装）
+│   ├── lin-yiyi/              # Q 版林一一头像（独立造型）
 │   └── README.md
 └── codex/                     # Codex 平台智能伙伴
     ├── pink-hanfu/

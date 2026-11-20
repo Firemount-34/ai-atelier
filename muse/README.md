@@ -42,3 +42,11 @@ big-head, upper-body, typing-on-a-laptop style.
 Only the Monday outfit has a Codex pet so far (see `../codex/`), redrawn from
 `avatar.webp`. To make a pet for any other outfit, follow
 [`../codex/TUTORIAL.md`](../codex/TUTORIAL.md).
+
+## Another look — `lin-yiyi/`
+
+Q-version Lin Yiyi （林一一） from the Douyin drama 《我的妹妹不可爱》
+("My Sister Is Not Cute"), the active Muse avatar since 2026-11-20. A separate
+look from the pink-hanfu character above — see [`lin-yiyi/`](lin-yiyi/).
+
+![Lin Yiyi](lin-yiyi/avatar.webp)

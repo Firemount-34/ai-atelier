@@ -40,3 +40,11 @@
 
 目前只有周一服装做了 Codex 伙伴（见 `../codex/`），由 `avatar.webp` 重绘而来。
 想给其他服装做伙伴，照着 [`../codex/TUTORIAL.zh-CN.md`](../codex/TUTORIAL.zh-CN.md) 做。
+
+## 另一个造型 — `lin-yiyi/`
+
+抖音短剧《我的妹妹不可爱》里林一一的 Q 版头像，2026-11-20 起成为 Muse
+助手的新头像，是上面粉白古装角色之外的另一个独立造型，见
+[`lin-yiyi/`](lin-yiyi/)。
+
+![林一一](lin-yiyi/avatar.webp)

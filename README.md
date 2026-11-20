@@ -29,6 +29,14 @@
 Files: Monday is [`muse/avatar.webp`](muse/avatar.webp); the rest live in
 [`muse/outfits/`](muse/outfits/).
 
+## Another avatar — Lin Yiyi
+
+[`muse/lin-yiyi/`](muse/lin-yiyi/) holds a Q-version avatar of Lin Yiyi （林一一）
+from the Douyin drama 《我的妹妹不可爱》 ("My Sister Is Not Cute"), the active
+Muse avatar since 2026-11-20. A separate look from the pink-hanfu character above.
+
+![Lin Yiyi](muse/lin-yiyi/avatar.webp)
+
 ## Preview
 
 The full Codex sprite sheet (8 columns × 11 rows):
@@ -49,6 +57,7 @@ The full Codex sprite sheet (8 columns × 11 rows):
 │   ├── avatar.webp            # main avatar — Monday outfit (1600×1600)
 │   ├── outfits/               # the other 7 outfits (Tue–Sun + spare)
 │   ├── states/                # dark-mode state images (Monday outfit)
+│   ├── lin-yiyi/              # Q-version Lin Yiyi avatar (separate look)
 │   └── README.md
 └── codex/                     # Codex platform pet
     ├── pink-hanfu/
