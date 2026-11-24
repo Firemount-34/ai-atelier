@@ -108,14 +108,14 @@ sheet.save("spritesheet.webp", lossless=True)
 
 | 服装图 | 建议宠物 id |
 |---|---|
-| `01-hanfu-qipao/01-pink-hanfu/muse/avatar.webp`（周一） | `pink-hanfu` ✅ 已做好 |
-| `01-hanfu-qipao/02-teal-hanfu/muse/avatar.webp`（周二） | `teal-hanfu` |
-| `02-purple-pearl-dress/muse/avatar.webp`（周三） | `purple-pearl-dress` |
-| `01-hanfu-qipao/03-red-hanfu/muse/avatar.webp`（周四） | `red-hanfu` |
-| `03-light-blue-suit/muse/avatar.webp`（周五） | `light-blue-suit` |
-| `01-hanfu-qipao/04-white-hanfu/muse/avatar.webp`（周六） | `white-hanfu` |
-| `04-pink-sweater/muse/avatar.webp`（周日） | `pink-sweater` |
-| `01-hanfu-qipao/05-mint-qipao/muse/avatar.webp`（备用） | `mint-qipao` |
+| `01-main-avatar/01-pink-hanfu/muse/avatar.webp`（周一） | `pink-hanfu` ✅ 已做好 |
+| `01-main-avatar/02-teal-hanfu/muse/avatar.webp`（周二） | `teal-hanfu` |
+| `01-main-avatar/03-purple-pearl-dress/muse/avatar.webp`（周三） | `purple-pearl-dress` |
+| `01-main-avatar/04-red-hanfu/muse/avatar.webp`（周四） | `red-hanfu` |
+| `01-main-avatar/05-light-blue-suit/muse/avatar.webp`（周五） | `light-blue-suit` |
+| `01-main-avatar/06-white-hanfu/muse/avatar.webp`（周六） | `white-hanfu` |
+| `01-main-avatar/07-pink-sweater/muse/avatar.webp`（周日） | `pink-sweater` |
+| `01-main-avatar/08-mint-qipao/muse/avatar.webp`（备用） | `mint-qipao` |
 
 ## 第 6 步 — 安装前校验
 

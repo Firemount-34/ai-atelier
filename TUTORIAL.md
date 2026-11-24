@@ -120,14 +120,14 @@ The `id` must match the folder name. Pick one id per outfit:
 
 | Outfit image | Suggested pet id |
 |---|---|
-| `01-hanfu-qipao/01-pink-hanfu/muse/avatar.webp` (Mon) | `pink-hanfu` ✅ already built |
-| `01-hanfu-qipao/02-teal-hanfu/muse/avatar.webp` (Tue) | `teal-hanfu` |
-| `02-purple-pearl-dress/muse/avatar.webp` (Wed) | `purple-pearl-dress` |
-| `01-hanfu-qipao/03-red-hanfu/muse/avatar.webp` (Thu) | `red-hanfu` |
-| `03-light-blue-suit/muse/avatar.webp` (Fri) | `light-blue-suit` |
-| `01-hanfu-qipao/04-white-hanfu/muse/avatar.webp` (Sat) | `white-hanfu` |
-| `04-pink-sweater/muse/avatar.webp` (Sun) | `pink-sweater` |
-| `01-hanfu-qipao/05-mint-qipao/muse/avatar.webp` (spare) | `mint-qipao` |
+| `01-main-avatar/01-pink-hanfu/muse/avatar.webp` (Mon) | `pink-hanfu` ✅ already built |
+| `01-main-avatar/02-teal-hanfu/muse/avatar.webp` (Tue) | `teal-hanfu` |
+| `01-main-avatar/03-purple-pearl-dress/muse/avatar.webp` (Wed) | `purple-pearl-dress` |
+| `01-main-avatar/04-red-hanfu/muse/avatar.webp` (Thu) | `red-hanfu` |
+| `01-main-avatar/05-light-blue-suit/muse/avatar.webp` (Fri) | `light-blue-suit` |
+| `01-main-avatar/06-white-hanfu/muse/avatar.webp` (Sat) | `white-hanfu` |
+| `01-main-avatar/07-pink-sweater/muse/avatar.webp` (Sun) | `pink-sweater` |
+| `01-main-avatar/08-mint-qipao/muse/avatar.webp` (spare) | `mint-qipao` |
 
 ## Step 6 — Validate before installing
 
