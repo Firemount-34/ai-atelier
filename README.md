@@ -1,114 +1,77 @@
-# Pink Hanfu — Virtual Avatar & Codex Pet
+# AI Atelier — Virtual Avatars & Codex Pets
 
 **English | [中文](README.zh-CN.md)**
 
-> A two-platform asset repo for one big-head chibi character: `muse/` holds her
-> avatar assets for Muse — all eight outfits of her wardrobe — and `codex/` holds
-> a Codex desktop pet import package redrawn frame by frame from the Monday
-> outfit, plus a tutorial for making pets of the other outfits.
+> The workshop of **AI造物局** (AI Atelier): a collection of big-head chibi
+> avatar looks. Every character lives in its own numbered folder, split by
+> platform — `muse/` holds the Muse avatar assets, `codex/` holds the Codex
+> desktop pet (built, or planned with a suggested pet id).
 
-![Avatar](muse/avatar.webp)
+## Characters
 
-## The character
+| 01 · Pink hanfu | 02 · Teal hanfu | 03 · Purple pearl dress | 04 · Red hanfu | 05 · Light blue suit |
+|---|---|---|---|---|
+| ![01](01-pink-hanfu/muse/avatar.webp) | ![02](02-teal-hanfu/muse/avatar.webp) | ![03](03-purple-pearl-dress/muse/avatar.webp) | ![04](04-red-hanfu/muse/avatar.webp) | ![05](05-light-blue-suit/muse/avatar.webp) |
 
-- **Look**: big-head chibi cartoon girl, long straight black hair with a center part, pearl earrings
-- **Signature pose**: typing on a small laptop
-- **Wardrobe**: eight outfits — a seven-outfit weekly rotation (Mon–Sun) plus one spare. The pet in this repo wears the Monday outfit: a pink-and-white hanfu with gold-thread embroidery
-- **Origin**: originally a custom avatar for the Muse personal assistant, later fully redrawn as an importable animated Codex pet
+| 06 · White hanfu | 07 · Pink sweater | 08 · Mint qipao | 09 · Lin Yiyi | 10 · Twin-tails |
+|---|---|---|---|---|
+| ![06](06-white-hanfu/muse/avatar.webp) | ![07](07-pink-sweater/muse/avatar.webp) | ![08](08-mint-qipao/muse/avatar.webp) | ![09](09-lin-yiyi/muse/avatar.webp) | ![10](10-twin-tails/muse/avatar.webp) |
 
-## The wardrobe
-
-| Mon · Pink hanfu | Tue · Teal hanfu | Wed · Purple pearl dress | Thu · Red hanfu |
+| # | Character | Notes | Codex pet |
 |---|---|---|---|
-| ![Mon](muse/avatar.webp) | ![Tue](muse/outfits/teal-hanfu.webp) | ![Wed](muse/outfits/purple-pearl-dress.webp) | ![Thu](muse/outfits/red-hanfu.webp) |
+| 01 | [Pink hanfu](01-pink-hanfu/) · 粉白刺绣古装 | Monday of the weekly rotation; the original main avatar | ✅ built |
+| 02 | [Teal hanfu](02-teal-hanfu/) · 青绿古装 | Tuesday | planned |
+| 03 | [Purple pearl dress](03-purple-pearl-dress/) · 紫色珍珠礼服 | Wednesday | planned |
+| 04 | [Red hanfu](04-red-hanfu/) · 红色金纹古装 | Thursday | planned |
+| 05 | [Light blue suit](05-light-blue-suit/) · 浅蓝西装现代装 | Friday | planned |
+| 06 | [White hanfu](06-white-hanfu/) · 白衣仙气古装 | Saturday | planned |
+| 07 | [Pink sweater](07-pink-sweater/) · 粉色毛衣日常装 | Sunday | planned |
+| 08 | [Mint qipao](08-mint-qipao/) · 薄荷绿旗袍 | Spare outfit | planned |
+| 09 | [Lin Yiyi](09-lin-yiyi/) · 林一一 | Q-version Lin Yiyi from the Douyin drama 《我的妹妹不可爱》; Muse avatar since 2026-11-20 | planned |
+| 10 | [Twin-tails](10-twin-tails/) · 原创双马尾 | Fully original pixel-art chibi girl | planned |
 
-| Fri · Light blue suit | Sat · White hanfu | Sun · Pink sweater | Spare · Mint qipao |
-|---|---|---|---|
-| ![Fri](muse/outfits/light-blue-suit.webp) | ![Sat](muse/outfits/white-hanfu.webp) | ![Sun](muse/outfits/pink-sweater.webp) | ![Spare](muse/outfits/mint-qipao.webp) |
-
-Files: Monday is [`muse/avatar.webp`](muse/avatar.webp); the rest live in
-[`muse/outfits/`](muse/outfits/).
-
-## Another avatar — Lin Yiyi
-
-[`muse/lin-yiyi/`](muse/lin-yiyi/) holds a Q-version avatar of Lin Yiyi （林一一）
-from the Douyin drama 《我的妹妹不可爱》 ("My Sister Is Not Cute"), the active
-Muse avatar since 2026-11-20. A separate look from the pink-hanfu character above.
-
-![Lin Yiyi](muse/lin-yiyi/avatar.webp)
-
-## Preview
-
-The full Codex sprite sheet (8 columns × 11 rows):
-
-![Codex sprite sheet](codex/preview/contact-sheet.png)
-
-| idle | waving | working | jumping |
-|---|---|---|---|
-| ![idle](codex/preview/idle.gif) | ![waving](codex/preview/waving.gif) | ![working](codex/preview/working.gif) | ![jumping](codex/preview/jumping.gif) |
+Characters 01–08 are one character in eight outfits — big-head, upper-body,
+typing on a small laptop — rotated weekly as the Muse assistant's avatar.
+09 and 10 are separate looks in a pixel-art chibi style.
 
 ## Repository layout
 
 ```
 .
-├── README.md                  # this page (English)
-├── README.zh-CN.md            # 中文说明
-├── muse/                      # Muse platform assets
-│   ├── avatar.webp            # main avatar — Monday outfit (1600×1600)
-│   ├── outfits/               # the other 7 outfits (Tue–Sun + spare)
-│   ├── states/                # dark-mode state images (Monday outfit)
-│   ├── lin-yiyi/              # Q-version Lin Yiyi avatar (separate look)
-│   └── README.md
-└── codex/                     # Codex platform pet
-    ├── pink-hanfu/
-    │   ├── pet.json           # pet manifest (spriteVersionNumber: 2)
-    │   └── spritesheet.webp   # sprite sheet (1536×2288, transparent)
-    ├── preview/               # contact sheet and animated previews
-    ├── TUTORIAL.md            # make a pet for any other outfit
-    └── README.md              # install guide
+├── README.md / README.zh-CN.md   # this page
+├── TUTORIAL.md / TUTORIAL.zh-CN.md
+│                                 # how to turn any look into a Codex pet
+├── 01-pink-hanfu/                # one numbered folder per character
+│   ├── README.md                 # character overview
+│   ├── muse/                     # Muse avatar assets (+ README)
+│   └── codex/                    # Codex pet package or plan (+ README)
+├── 02-teal-hanfu/
+├── ...
+└── 10-twin-tails/
 ```
 
-## Installing the Codex pet (local import)
+## The Codex pet
 
-1. Copy the whole `codex/pink-hanfu/` folder into Codex's pets directory:
-   - macOS / Linux: `~/.codex/pets/`
-   - Windows: `%USERPROFILE%\.codex\pets\`
-   - If `CODEX_HOME` is set: `$CODEX_HOME/pets/`
-2. Open the ChatGPT / Codex desktop app → **Settings → Pets → Refresh**
-3. Select **"粉白古装 · Pink Hanfu"**, and toggle it any time with `/pet`
+So far only **01 · Pink hanfu** has a pet: a Codex Pet v2 package redrawn
+frame by frame (8 columns × 11 rows, 1536×2288). Full spec, previews and
+install guide: [`01-pink-hanfu/codex/`](01-pink-hanfu/codex/).
 
-Want a pet wearing a different outfit? Follow
-[**codex/TUTORIAL.md**](codex/TUTORIAL.md) — it walks through the whole process,
-from one outfit image in `muse/outfits/` to an installable pet package.
+![Codex sprite sheet](01-pink-hanfu/codex/preview/contact-sheet.png)
 
-## Sprite sheet spec
-
-| Item | Value |
-|---|---|
-| Format | Codex Pet v2 |
-| Sheet size | 1536 × 2288 px (8 columns × 11 rows) |
-| Cell | 192 × 208 px, transparent WebP |
-| Frames | 74 used cells (plus a neutral front-facing cell) |
-
-| Row | State | Frames | Content |
+| idle | waving | working | jumping |
 |---|---|---|---|
-| 0 | idle | 6 (+ neutral) | breathing, blinking |
-| 1 | running-right | 8 | running right, hair flowing back |
-| 2 | running-left | 8 | running left (mirror-derived from the right run, allowed by the spec) |
-| 3 | waving | 4 | raising a hand to say hello |
-| 4 | jumping | 5 | crouch, leap, airborne, fall, landing |
-| 5 | failed | 8 | from stunned and drooping to face-down on the keyboard |
-| 6 | waiting | 6 | looking around, chin in hand, beckoning |
-| 7 | running (working) | 6 | focused typing |
-| 8 | review | 6 | leaning in to inspect, nodding, thumbs up |
-| 9–10 | look directions | 16 | clockwise from straight up, one gaze every 22.5° |
+| ![idle](01-pink-hanfu/codex/preview/idle.gif) | ![waving](01-pink-hanfu/codex/preview/waving.gif) | ![working](01-pink-hanfu/codex/preview/working.gif) | ![jumping](01-pink-hanfu/codex/preview/jumping.gif) |
 
-## Production notes
+**Install**: copy `01-pink-hanfu/codex/pink-hanfu/` into `~/.codex/pets/`
+(Windows: `%USERPROFILE%\.codex\pets\`), then in the ChatGPT / Codex desktop
+app go to **Settings → Pets → Refresh** and select **"粉白古装 · Pink Hanfu"**.
 
-- Every frame was **individually redrawn** — no displacement/scale transforms of a single image: expressions, poses and hair movement differ frame by frame
-- The look-direction set originally had only 7 of 8 frames drawn; the missing 337.5° frame was drawn separately to complete it
-- Assembly only did background removal, frame slicing and size normalization; a few frames may keep a hair-thin strand from a neighbouring frame at the edge, essentially invisible at actual pet display size
+Want a pet for another character? Follow [**TUTORIAL.md**](TUTORIAL.md) —
+the full pipeline, with a suggested pet id per character.
 
 ## Disclaimer
 
-A personal, non-commercial fan work. The character is a stylized cartoon depiction, unrelated to any real person or to OpenAI, Meta, or any other company. Please do not use commercially.
+Personal, non-commercial works. The characters are stylized cartoon
+depictions, unrelated to any real person or to OpenAI, Meta, or any other
+company. Please do not use commercially. Character 09 is a fan work; see its
+own folder for details.
